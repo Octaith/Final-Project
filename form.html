@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="URF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Comments</title>
+        <link rel="stylesheet" href="stylesheet.css" />
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <img src="templeicon.jpg" width="30" height="30" alt="logo">
+                <h4 class="logo">About Halo and Me</h4>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a class="nav-link" href ="history.html">History</a></li>
+                    <li><a class="nav-link" href ="releases.html">Releases</a></li>
+                    <li><a class="nav-link"href ="contact.html">Contact</a></li>
+                    <li><a class="nav-link" href ="form.html">Forms</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="commentsection">
+            Comment: <br>
+            <textarea name="" id="" cols="50" rows="20" placeholder="Please enter your comment here."></textarea>
+        </div>
+        <div id='container'>
+
+        </div>
+
+        
+        <script language ="Javascript">
+        var pass="12345";
+        var password;
+        password = prompt("Enter Password to Upload Comments! (Hint: It's 12345)", ' ');
+        
+        if(password==pass){
+            alert('Correct Password, Click Ok to Enter Comments Page')
+        }
+        else{
+            window.location="index.html"
+            alert('That is not the correct password!')
+        }
+        
+        </script>
+
+    </body>
+</html>
